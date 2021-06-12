@@ -1,14 +1,28 @@
 <template>
   <div id="app">
-    <h3>Mỹ Dung blog</h3>
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link> |
-      <router-link to="/about">Memorables</router-link>
+      <b-row>
+        <b-col style="text-algin: left">
+          <h3>SAFE AND SOUND</h3>
+        </b-col>
+        <b-col style="text-align: right">
+          <router-link to="/"
+            ><b-icon
+              icon="house-fill"
+              scale="1.25"
+              shift-v="1.25"
+              aria-hidden="true"
+            ></b-icon>
+            Home
+          </router-link>
+          | <router-link to="/about">About</router-link> |
+          <!-- <router-link to="/about">Memorables</router-link> -->
+        </b-col>
+      </b-row>
     </div>
-    <div class="container">
+    <b-container fluid="lg">
       <router-view />
-    </div>
+    </b-container>
   </div>
 </template>
 
@@ -19,7 +33,10 @@ body {
 }
 
 h3 {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: #f3f3f3;
+  box-shadow: 0 12px 6px -6px gray;
+  width: fit-content;
 }
 
 .footer-copyright {
@@ -47,23 +64,35 @@ a:hover {
 }
 
 #nav {
-  padding: 30px;
+  padding: 20px;
   border-bottom: solid 1px rgb(179, 177, 177);
   margin-bottom: 0.5%;
+  background-color: #ffa8b6;
   a {
     font-weight: bold;
     color: #2c3e50;
 
     &.router-link-exact-active {
-      color: #42b983;
+      color: #f3f3f3;
+      font-size: 16px;
     }
   }
 }
 
-.container {
+.container-lg {
   padding: 10px;
   border: solid 1px rgb(179, 177, 177);
   overflow: auto;
   margin: 10px 0px 10px 0;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: 520px !important;
+  max-height: 550px !important ;
+}
+
+.col {
+  text-align: left;
 }
 </style>
