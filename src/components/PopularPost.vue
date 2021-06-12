@@ -60,7 +60,7 @@ export default {
         },
         {
           id: "002",
-          title: "A LITTLE CONFESION AT NIGHT !",
+          title: "A LITTLE CONFESSION AT NIGHT !",
           image: "https://files.fm/thumb_show.php?i=5tgff2xzy",
           description: "Now that I am 22, I must have my plans. Of course,...",
           content: "",
