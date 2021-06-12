@@ -23,6 +23,9 @@
     <b-container fluid="lg">
       <router-view />
     </b-container>
+    <footer id="footer">
+      © 2021 Copyright and made by: <strong>oscar.vo@code88.asia</strong>
+    </footer>
   </div>
 </template>
 
@@ -32,19 +35,20 @@ body {
   width: 100%;
 }
 
+#footer {
+  height: 77px;
+  border-top: solid 1px gray;
+  margin-top: 2%;
+  text-align: center;
+  justify-content: center;
+  background-color: #ffa8b6;
+}
+
 h3 {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   color: #f3f3f3;
   box-shadow: 0 12px 6px -6px gray;
   width: fit-content;
-}
-
-.footer-copyright {
-  margin-top: 0.5%;
-  border-top: solid 1px rgb(179, 177, 177);
-  position: absolute;
-  width: 100%;
-  bottom: 0;
 }
 
 #app {
@@ -66,7 +70,7 @@ a:hover {
 #nav {
   padding: 20px;
   border-bottom: solid 1px rgb(179, 177, 177);
-  margin-bottom: 0.5%;
+  margin-bottom: 2%;
   background-color: #ffa8b6;
   a {
     font-weight: bold;
@@ -80,10 +84,10 @@ a:hover {
 }
 
 .container-lg {
-  padding: 10px;
-  border: solid 1px rgb(179, 177, 177);
+  padding: 50px;
+  border: solid 2px rgb(207, 177, 177);
   overflow: auto;
-  margin: 10px 0px 10px 0;
+  border-radius: 50px;
 }
 
 .img-fluid {
