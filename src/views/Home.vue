@@ -17,6 +17,7 @@
         <b-carousel-slide v-bind:key="img.id" :img-src="img.src"></b-carousel-slide>
       </template>
     </b-carousel>
+    <hr class="my-4" />
     <PostPoppularComponent></PostPoppularComponent>
   </div>
 </template>

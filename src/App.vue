@@ -16,6 +16,7 @@
             Home
           </router-link>
           | <router-link to="/about">About</router-link> |
+          <b-avatar variant="info" src="https://placekitten.com/300/300"></b-avatar>
           <!-- <router-link to="/about">Memorables</router-link> -->
         </b-col>
       </b-row>
@@ -41,7 +42,7 @@ body {
   margin-top: 2%;
   text-align: center;
   justify-content: center;
-  background-color: #ffa8b6;
+  background-color: #ffa8b654;
 }
 
 h3 {
