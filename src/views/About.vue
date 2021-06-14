@@ -86,7 +86,7 @@ export default {
         dateOfBirth: "November, 1999",
         country: "Binh Dinh, Viet Nam",
         currentAddress:
-          "Number 35/18A, number 11 street, ward Linh Chieu, district Thu Duc, Ho Chi Minh city, Viet Nam",
+          "No 35/18A, Number 11 street, Linh Chieu Ward, Thu Duc District, Ho Chi Minh city, Viet Nam",
         email: "..........@gmail.com",
         phoneNumber: "+84 3694 59077",
       },

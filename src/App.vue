@@ -15,7 +15,17 @@
             ></b-icon>
             Home
           </router-link>
-          | <router-link to="/about">About</router-link> |
+          |
+          <router-link to="/about"
+            ><b-icon
+              icon="person-fill"
+              scale="1.25"
+              shift-v="1.25"
+              aria-hidden="true"
+            ></b-icon>
+            About
+          </router-link>
+          |
           <b-avatar variant="info" src="https://placekitten.com/300/300"></b-avatar>
           <!-- <router-link to="/about">Memorables</router-link> -->
         </b-col>

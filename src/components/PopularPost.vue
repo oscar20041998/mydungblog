@@ -18,14 +18,17 @@
             </b-card-text>
             <div style="text-align: right">
               <b-button
+                :id="post.id"
                 v-b-modal.modal-lg
                 variant="primary"
                 size="sm"
                 squared
                 @click="clickShowPopupReadMore(post.id)"
-                ><b-icon icon="info-circle-fill" scale="1" size="small"></b-icon> READ
-                MORE
+                ><b-icon icon="eye" scale="1" size="small"></b-icon> READ MORE
               </b-button>
+              <b-tooltip :target="post.id" triggers="hover">
+                Click to read <b>[ {{ post.title }} ]</b> content!
+              </b-tooltip>
             </div>
           </b-card>
         </b-col>
